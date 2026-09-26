@@ -1,8 +1,8 @@
-# HTML5
+# Introduction
 
 HTML5 est la dernière version du HyperText Markup Language, utilisée pour structurer et présenter le contenu des pages web. Il s'agit d'une plateforme ouverte qui permet de créer des sites web et des applications interactives, intégrant des fonctionnalités multimédias et des API modernes.
 
-## Principales Caractéristiques de HTML5
+# Principales Caractéristiques de HTML5
 
 HTML5 introduit des éléments sémantiques comme `<header>`, `<footer>`, `<article>`, et `<section>`, facilitant une meilleure structuration des pages web. Il prend également en charge des graphiques vectoriels via `<canvas>` et SVG, éliminant le besoin de technologies tierces comme Flash.
 
