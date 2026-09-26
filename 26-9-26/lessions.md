@@ -12,7 +12,7 @@ Les fonctionnalités multimédias sont enrichies avec les balises `<audio>` et `
 
 ### Basique
 
-![Coding GIF Placeholder](start.gif)
+![Coding GIF Placeholder](https://github.com/Da3f4ult/2emeinfo/blob/main/26-9-26/start.gif)
 
 ### Code Exemple
 
