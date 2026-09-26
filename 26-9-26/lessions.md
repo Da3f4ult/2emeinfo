@@ -10,11 +10,21 @@ Les fonctionnalités multimédias sont enrichies avec les balises `<audio>` et `
 
 ---
 
-### GIF Image
+### Basique
 
-![Coding GIF Placeholder](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+![Coding GIF Placeholder](start.gif)
 
-### URL Code as Text
+### Code Exemple
 
 ```html
-<a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank">Documentation HTML5 sur MDN</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
