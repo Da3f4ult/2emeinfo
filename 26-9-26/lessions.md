@@ -25,6 +25,20 @@ Les fonctionnalités multimédias sont enrichies avec les balises `<audio>` et `
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>
+           Bienvenu a HTML5
+        </h1>
+    </header>
+    <section>
+        <p>
+            HTML5 est la dernière version du HyperText Markup Language, utilisée pour structurer et présenter le contenu des pages web. Il s'agit d'une plateforme ouverte qui permet de créer des sites web et des applications interactives, intégrant des fonctionnalités multimédias et des API modernes.
+        </p>
+    </section>
+    <footer>
+        <p>
+            2023,Mon site web
+        </p>
+    </footer>
 </body>
 </html>
