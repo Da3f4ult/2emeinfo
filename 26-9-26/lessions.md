@@ -10,9 +10,23 @@ Les fonctionnalités multimédias sont enrichies avec les balises `<audio>` et `
 
 ---
 
-### Basique
+### Créer `index.html` dans VS Code
 
 ![Coding GIF Placeholder](https://github.com/Da3f4ult/2emeinfo/blob/main/26-9-26/start.gif)
+
+1. Ouvrez le dossier de votre projet sur le Bureau.
+
+2. Dans le dossier, ouvrez un terminal.
+
+3. Tapez `code .` et appuyez sur **Entrée**. VS Code s’ouvre.
+
+4. Dans VS Code, cliquez sur **Nouveau fichier**.
+
+5. Nommez le fichier `index.html` et appuyez sur **Entrée**.
+
+6. Tapez `!`, puis appuyez sur **Entrée** pour créer la base de la page.
+
+7. Enregistrez avec **Ctrl + S**.
 
 ### Code Exemple
 
