@@ -2,6 +2,6 @@
 
 ![GIF](public/1.gif)
 
-## Comment créer un fichier `index.html dans VS Code
+## Comment créer un fichier `index.html` dans VS Code
 
 ![GIF](public/2.gif)
