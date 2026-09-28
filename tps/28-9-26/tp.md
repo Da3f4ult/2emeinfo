@@ -96,4 +96,4 @@ Exemple :
 
 Ce code HTML produit l'affichage ci-dessous dans le navigateur :
 
-<img src="images/5.png" alt="Affichage d'une liste numérotée" width="600">
+<img src="5.png" alt="Affichage d'une liste numérotée" width="600">
