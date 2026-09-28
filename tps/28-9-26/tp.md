@@ -16,11 +16,11 @@ Ce code HTML produit l’affichage ci-dessous dans le navigateur :
 ## Saut de ligne et paragraphes
 
 Il n'y a pas de retour à la ligne dans le navigateur ! En effet, les sauts de lignes que l'on met dans notre fichier HTML ne sont pas pris en compte par le navigateur.
-Pour faire un saut de ligne, il faut utiliser la balise `<br/>`, le code correct est :
+Pour faire un saut de ligne, il faut utiliser la balise `<br>`, le code correct est :
 
 ```html
 <body><!-- Corps de la page -->
-Contenu de votre page WEB.<br/>
+Contenu de votre page WEB.<br>
 Une deuxième ligne dans ma page WEB.
 </body>
 ```
