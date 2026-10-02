@@ -1,7 +1,3 @@
-## Objectif
-
-Apprendre à créer une page HTML valide avec les balises essentielles.
-
 ## Énoncé
 
 Écris un document HTML complet qui répond à **TOUTES** les consignes ci-dessous :
