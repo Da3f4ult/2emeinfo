@@ -1,1 +1,12 @@
-
+[
+  {
+    "title": "Structure HTML de base",
+    "slug": "html-base",
+    "day": 2,
+    "month": 10,
+    "year": 2026,
+    "link": "https://github.com/Da3f4ult/2emeinfo/blob/main/exrx/exercice-html-base.md",
+    "description": "Créer sa première page HTML valide avec doctype, head, titres, liste et lien.",
+    "starter": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>...</title>\n</head>\n<body>\n\n</body>\n</html>"
+  }
+]
