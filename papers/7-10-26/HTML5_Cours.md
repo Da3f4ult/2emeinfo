@@ -105,3 +105,15 @@ contenu pour les navigateurs et les utilisateurs.
 </body>
 </html>
 ```
+**Explications des éléments essentiels**
+* `<!DOCTYPE html>` : indique au navigateur que la page utilise HTML5.
+* `<meta charset="utf-8">` : garantit un bon encodage des caractères, recommandé pour tous les projets.
+* Titres `<h1>` à `<h6>` : utilisés pour structurer le contenu.
+* Paragraphes `<p>` : pour le texte.
+* Listes `<ul>` / `<ol>` et `<li>` : utiles pour organiser des éléments.
+* Liens `<a>` : permettent de naviguer entre sections ou pages.
+
+Activité: reproduire la mise en forme en html
+
+<!-- Place for photo -->
+![Screenshot of the web browser showing the HTML exercise](exr.png)
