@@ -66,59 +66,37 @@ Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
 
 ## Résultat
 
-<table border="1">
-  <tr>
-    <th colspan="3">En-tête sur 3 colonnes</th>
-  </tr>
-
-  <tr>
-    <td rowspan="2">Cellule fusionnée sur 2 lignes</td>
-    <td>Colonne 2, ligne 1</td>
-    <td>Colonne 3, ligne 1</td>
-  </tr>
-
-  <tr>
-    <td colspan="2">Cellule fusionnée sur 2 colonnes</td>
-  </tr>
-
-  <tr>
-    <td>Colonne 1, ligne 3</td>
-    <td>Colonne 2, ligne 3</td>
-    <td>Colonne 3, ligne 3</td>
-  </tr>
-</table>
+![Screenshot of the web browser showing the HTML exercise](t1.png)
 
 ## Activité
 
-<table border="1">
-  <tr>
-    <td rowspan="2">1 2 3</td>
-    <td colspan="2">Colonne 1 &amp; 2</td>
-  </tr>
+![Screenshot of the web browser showing the HTML exercise](t2.png)
 
-  <tr>
-    <td>Item A</td>
-    <td>Item B</td>
-  </tr>
-
-</table>
-
-<details>
-<summary>CODE</summary>
+### Code
 
 ```html
-<table border="1">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau HTML</title>
+</head>
+<body>
 
-  <tr>
-    <td rowspan="2">1 2 3</td>
-    <td colspan="2">Colonne 1 &amp; 2</td>
-  </tr>
+    <table border="1">
+        <tr>
+          <td rowspan="2">1 2 3</td>
+          <td colspan="2">Colonne 1 &amp; 2</td>
+        </tr>
 
-  <tr>
-    <td>Item A</td>
-    <td>Item B</td>
-  </tr>
+        <tr>
+          <td>Item A</td>
+          <td>Item B</td>
+        </tr>
 
-</table>
+    </table>
+
+</body>
+</html>
 ```
-</details>
