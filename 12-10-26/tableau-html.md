@@ -66,8 +66,24 @@ Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
 
 ## Résultat
 
-| En-tête sur 3 colonnes |  |  |
-|---|---|---|
-| Cellule fusionnée sur 2 lignes | Colonne 2, ligne 1 | Colonne 3, ligne 1 |
-|  | Cellule fusionnée sur 2 colonnes |  |
-| Colonne 1, ligne 3 | Colonne 2, ligne 3 | Colonne 3, ligne 3 |
+<table border="1">
+  <tr>
+    <th colspan="3">En-tête sur 3 colonnes</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Cellule fusionnée sur 2 lignes</td>
+    <td>Colonne 2, ligne 1</td>
+    <td>Colonne 3, ligne 1</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">Cellule fusionnée sur 2 colonnes</td>
+  </tr>
+
+  <tr>
+    <td>Colonne 1, ligne 3</td>
+    <td>Colonne 2, ligne 3</td>
+    <td>Colonne 3, ligne 3</td>
+  </tr>
+</table>
