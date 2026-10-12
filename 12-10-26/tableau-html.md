@@ -87,3 +87,38 @@ Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
     <td>Colonne 3, ligne 3</td>
   </tr>
 </table>
+
+## Activité
+
+<table border="1">
+  <tr>
+    <td rowspan="2">1 2 3</td>
+    <td colspan="2">Colonne 1 &amp; 2</td>
+  </tr>
+
+  <tr>
+    <td>Item A</td>
+    <td>Item B</td>
+  </tr>
+
+</table>
+
+<details>
+<summary>CODE</summary>
+
+```html
+<table border="1">
+
+  <tr>
+    <td rowspan="2">1 2 3</td>
+    <td colspan="2">Colonne 1 &amp; 2</td>
+  </tr>
+
+  <tr>
+    <td>Item A</td>
+    <td>Item B</td>
+  </tr>
+
+</table>
+```
+</details>
