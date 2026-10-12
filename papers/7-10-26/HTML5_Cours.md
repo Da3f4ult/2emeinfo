@@ -1,119 +1,89 @@
-# HTML5
+# Tableau HTML
 
-HTML5 est la dernière version du langage de balisage HTML, utilisée pour
-structurer et enrichir le contenu des pages web avec des fonctionnalités
-multimédias et sémantiques avancées.
+Pour créer un tableau en HTML, utilisez les balises `<table>`, `<tr>`, `<td>` et `<th>` pour structurer vos données en lignes et en colonnes.
 
-HTML5, ou **HyperText Markup Language 5**, est le langage fondamental du
-web, servant à définir la structure et le contenu d'une page web, comme
-les titres, paragraphes, images, liens et formulaires.
+## Structure de base d’un tableau HTML
 
-Contrairement aux langages de programmation, HTML5 ne permet pas de
-créer des logiques complexes, mais il « balise » le contenu pour
-indiquer au navigateur comment l'afficher.
+1. **Balise `<table>`** : C'est le conteneur principal du tableau. Elle englobe toutes les autres balises.
 
-## Les balises HTML
+2. **Balise `<tr>`** : Utilisée pour créer une ligne dans le tableau.
 
-> **Une balise HTML est un code utilisé pour structurer et organiser le
-> contenu d'une page web, permettant aux navigateurs de l'afficher
-> correctement.**
+3. **Balise `<td>`** : Représente une cellule de données dans une ligne.
 
-### Définition et rôle
+4. **Balise `<th>`** : Utilisée pour créer une cellule d'en-tête. Son texte est généralement affiché en gras et centré.
 
-Une balise HTML est un élément du langage HTML (**HyperText Markup
-Language**) qui sert à encadrer du contenu pour lui donner une structure
-et un sens. Elle indique aux navigateurs comment afficher le texte, les
-images, les liens, les tableaux ou tout autre élément d'une page.
+## Fusionner des cellules
 
-Les balises permettent également de hiérarchiser l'information.
+### 1. Attribut `colspan`
 
-## 1. Structure d'une balise
+L'attribut `colspan` permet de fusionner plusieurs colonnes horizontalement.
 
-La plupart des balises HTML se composent de deux parties :
+Exemple : `colspan="3"` permet à une cellule d'occuper trois colonnes.
 
--   **Balise ouvrante** : marque le début de l'élément, par exemple
-    `<p>` pour un paragraphe.
--   **Balise fermante** : marque la fin de l'élément, par exemple
-    `</p>`.
+### 2. Attribut `rowspan`
 
-Le contenu entre ces deux balises constitue **l'élément HTML**.
-Certaines balises sont **auto-fermantes ou vides**, comme `<br>` pour un
-saut de ligne, et n'ont pas besoin de balise de fin.
+L'attribut `rowspan` permet de fusionner plusieurs lignes verticalement.
 
-### Attributs
+Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
 
-Les balises peuvent contenir des **attributs** qui fournissent des
-informations supplémentaires sur l'élément, comme `src` pour l'URL d'une
-image ou `alt` pour le texte alternatif. Ces attributs permettent de
-personnaliser le comportement ou l'apparence de l'élément.
+## Exemple HTML
 
-### Exemples courants
-
--   `<h1>` à `<h6>` : titres hiérarchisés
--   `<p>` : paragraphe
--   `<img src="image.jpg" alt="Description">` : image
--   `<a href="https://exemple.com">Lien</a>` : lien hypertexte
--   `<ul>` et `<li>` : listes à puces
--   `<strong>` et `<em>` : texte en gras ou en italique pour mettre en
-    valeur
-
-### Importance
-
-Les balises HTML sont essentielles pour :
-
--   Structurer le contenu d'une page web
--   Assurer la compatibilité entre navigateurs
--   Faciliter le référencement et l'accessibilité
--   Intégrer des médias et des fonctionnalités interactives
-
-En résumé, les **balises HTML** sont les briques de base d'une page web,
-permettant de définir la structure, la mise en forme et le sens du
-contenu pour les navigateurs et les utilisateurs.
-
-## Exemple d'une page HTML
-
-``` html
+```html
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8" />
-    <title>Ma première page HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau HTML</title>
 </head>
 <body>
-    <h1>Bienvenue sur ma page</h1>
-    <p>Ceci est un paragraphe d’exemple.</p>
 
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <table border="1">
+        <tr>
+            <th colspan="3">En-tête sur 3 colonnes</th>
+        </tr>
 
-    <h2 id="accueil">Accueil</h2>
-    <p>Voici une section d’accueil simple.</p>
+        <tr>
+            <td rowspan="2">Cellule fusionnée sur 2 lignes</td>
+            <td>Colonne 2, ligne 1</td>
+            <td>Colonne 3, ligne 1</td>
+        </tr>
 
-    <h2 id="apropos">À propos</h2>
-    <p>Une courte description de la page.</p>
+        <tr>
+            <td colspan="2">Cellule fusionnée sur 2 colonnes</td>
+        </tr>
 
-    <h2 id="contact">Contact</h2>
-    <p>Envoyez-nous un message pour plus d’informations.</p>
+        <tr>
+            <td>Colonne 1, ligne 3</td>
+            <td>Colonne 2, ligne 3</td>
+            <td>Colonne 3, ligne 3</td>
+        </tr>
+    </table>
 
-    <footer>
-        <p>© 2026 Mon Site Web</p>
-    </footer>
 </body>
 </html>
 ```
-**Explications des éléments essentiels**
-* `<!DOCTYPE html>` : indique au navigateur que la page utilise HTML5.
-* `<meta charset="utf-8">` : garantit un bon encodage des caractères, recommandé pour tous les projets.
-* Titres `<h1>` à `<h6>` : utilisés pour structurer le contenu.
-* Paragraphes `<p>` : pour le texte.
-* Listes `<ul>` / `<ol>` et `<li>` : utiles pour organiser des éléments.
-* Liens `<a>` : permettent de naviguer entre sections ou pages.
 
-Activité: reproduire la mise en forme en html
+## Resulta
 
-<!-- Place for photo -->
-![Screenshot of the web browser showing the HTML exercise](exr.png)
+    <table border="1">
+        <tr>
+            <th colspan="3">En-tête sur 3 colonnes</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Cellule fusionnée sur 2 lignes</td>
+            <td>Colonne 2, ligne 1</td>
+            <td>Colonne 3, ligne 1</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Cellule fusionnée sur 2 colonnes</td>
+        </tr>
+
+        <tr>
+            <td>Colonne 1, ligne 3</td>
+            <td>Colonne 2, ligne 3</td>
+            <td>Colonne 3, ligne 3</td>
+        </tr>
+    </table>
