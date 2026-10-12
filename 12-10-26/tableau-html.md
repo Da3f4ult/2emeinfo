@@ -15,29 +15,3 @@ Pour créer un tableau en HTML, utilisez les balises `<table>`, `<tr>`, `<td>` e
 
 4. **Balise `<th>`**  
    Utilisée pour créer des en-têtes de colonnes ou de lignes. Le texte dans une cellule `<th>` est généralement affiché en gras et centré.
-
-## Exemple de tableau HTML
-
-```html
-<table>
-  <tr>
-    <th>Nom</th>
-    <th>Âge</th>
-    <th>Ville</th>
-  </tr>
-  <tr>
-    <td>Amine</td>
-    <td>20</td>
-    <td>Gafsa</td>
-  </tr>
-  <tr>
-    <td>Sara</td>
-    <td>22</td>
-    <td>Tunis</td>
-  </tr>
-</table>
-```
-
-## Activité
-
-Créez un tableau HTML contenant trois colonnes : **Nom**, **Âge** et **Ville**. Ajoutez au moins deux lignes de données.
