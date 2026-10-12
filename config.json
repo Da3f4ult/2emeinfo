@@ -7,5 +7,14 @@
     "title": "Partie 1 HTML5",
     "link": "https://github.com/Da3f4ult/2emeinfo/blob/main/26-9-26/lessions.md",
     "img":"https://github.com/Da3f4ult/2emeinfo/blob/main/public/html.webp"
+  },
+  {
+    "slug": "Les Tables",
+    "day": 12,
+    "month":10,
+    "year": 2026,
+    "title": "les tables",
+    "link": "https://github.com/Da3f4ult/2emeinfo/blob/main/12-10-26/tableau-html.md",
+    "img":"https://github.com/Da3f4ult/2emeinfo/blob/main/public/html.webp"
   }
 ]
