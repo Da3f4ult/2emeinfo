@@ -66,6 +66,15 @@ Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
 
 ## Resulta
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau HTML</title>
+</head>
+<body>
+
     <table border="1">
         <tr>
             <th colspan="3">En-tête sur 3 colonnes</th>
@@ -87,3 +96,6 @@ Exemple : `rowspan="2"` permet à une cellule d'occuper deux lignes.
             <td>Colonne 3, ligne 3</td>
         </tr>
     </table>
+
+</body>
+</html>
