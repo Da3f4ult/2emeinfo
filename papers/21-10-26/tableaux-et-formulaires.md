@@ -65,11 +65,7 @@ Un tableau sert à présenter des **données** en lignes et en colonnes (jamais 
 
 # Les formulaires
 
-## Les types de champ `<input>`
-
-> Cette partie de la photo est floue : les types et leurs descriptions ont été reconstitués au mieux. À vérifier avec ton cours.
-
-| Valeur de `type` | Utilisation |
+| Type `input` | Utilisation |
 |---|---|
 | `text` | Texte sur une ligne. |
 | `email` / `url` / `tel` | Adresse e-mail, URL, téléphone (validation et clavier adaptés). |
