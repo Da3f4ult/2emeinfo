@@ -1,9 +1,6 @@
 # Récapitulatif des éléments d'un formulaire HTML
 
 Chaque élément est présenté avec son rôle, un exemple de code et une **boîte de test** que tu peux utiliser directement.
-
-> **Pour que les boîtes de test fonctionnent :** ouvre ce fichier dans un aperçu Markdown qui accepte le HTML (VS Code → `Ctrl+Shift+V`, Typora, Obsidian…). Certains sites (GitHub par exemple) bloquent les champs de formulaire dans le Markdown.
-
 ---
 
 ## 1. La structure de base
